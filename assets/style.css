@@ -1,0 +1,119 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: #F7F7F7;
+}
+
+.header {
+  background-image: url("./background.png");
+  background-color: #010203;
+  background-repeat: no-repeat;
+  height: 358px;
+  padding: 16px 0 0 0;
+  text-align: center;
+}
+
+.header img {
+  font-size: 48px;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.header-image {
+  padding: 3rem 0 0 0;
+}
+
+.header-title {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-description {
+  color: #CFCFCF;
+  margin: 4px auto;
+  text-align: center;
+  max-width: 384px;
+  padding: 20px 0 0 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.card {
+  margin-bottom: 24px;
+  opacity: .7;
+  box-shadow: 0;
+  transition: .2s ease;
+  font-size: 300px;
+}
+
+
+.card:hover {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  opacity: 1;
+}
+
+.menu {
+  height: 112px;
+  width: 912px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0px;
+  margin: -100px auto 0 auto;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.Select-control {
+  width: 256px;
+  height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+  line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+  line-height: 32px;
+}
+
+
+.footer {
+  text-align: center;
+  height: 250px;
+}
+
+.footer img {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 13px;
+  opacity: .7;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 13px;
+  color: #292929;
+}
+
+
+
+
+.dropdown {
+  opacity: 0.5;
+  transition: .2s ease;
+}
+
+.menu:hover .dropdown {
+  opacity: 1;
+}
