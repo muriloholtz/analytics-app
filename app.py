@@ -92,7 +92,7 @@ app.layout = html.Div(
                 html.P(
                     children="Dashboard por Murilo Holtz Foltran para teste de front-end com Python, HTML, CSS para Akaer.",
                 ),
-                dcc.Link("Código - Github", href="/github-aqui", className="link"
+                dcc.Link("Código - Github", href="https://github.com/muriloholtz/analytics-app/", className="link"
                 ),
             ],
             className="footer",
